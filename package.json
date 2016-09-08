@@ -5,8 +5,8 @@
   "license": "UNLICENSED",
   "scripts": {
     "postinstall": "typings install",
+    "build": "gulp",
     "start": "",
-    "build": "",
     "test": ""
   },
   "dependencies": {

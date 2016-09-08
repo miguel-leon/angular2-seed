@@ -1,0 +1,8 @@
+{
+  "paths": {
+    "src": "./src",
+    "static": "./public",
+    "build": "./build",
+    "temp": "./.tmp"
+  }
+}
