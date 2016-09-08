@@ -1,0 +1,18 @@
+{
+  "apps": [
+    {
+      "main": "src/main.ts",
+      "tsconfig": "src/tsconfig.json",
+      "mobile": false
+    }
+  ],
+  "addons": [],
+  "packages": [],
+  "defaults": {
+    "prefix": "oli",
+    "sourceDir": "src",
+    "styleExt": "scss",
+    "prefixInterfaces": false,
+    "lazyRoutePrefix": "+"
+  }
+}
