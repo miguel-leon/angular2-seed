@@ -4,5 +4,6 @@
     "static": "./public",
     "build": "./build",
     "temp": "./.tmp"
-  }
+  },
+  "buildExts": "js,css"
 }

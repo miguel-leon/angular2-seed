@@ -10,7 +10,8 @@
     ],
     "indent": [
       true,
-      "tabs"
+      "tabs",
+      "spaces"
     ],
     "no-duplicate-variable": true,
     "no-eval": true,

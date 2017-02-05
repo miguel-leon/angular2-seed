@@ -1,13 +1,13 @@
 module.exports = function (gulp, config, done) {
-	gulp.watch(config.excludes.concat(`${config.paths.src}/${config.globs.typescript}`),
-	           gulp.series('transpile:build'));
+	gulp.watch([`${config.paths.src}/${config.globs.typescript}`],
+	           gulp.series('transpile'));
 
-	gulp.watch(config.excludes.concat(`${config.paths.src}/${config.globs.html}`),
+	gulp.watch([`${config.paths.src}/${config.globs.html}`],
 	           gulp.series('copy:build:template', 'server:reload'));
 
-	// TODO falta watch de CSSs
+	// TODO SCSS watchs
 
 	done();
 };
 
-// TODO falta watch de los tests
+// TODO automatic testing watchs

@@ -9,7 +9,7 @@
   "addons": [],
   "packages": [],
   "defaults": {
-    "prefix": "oli",
+    "prefix": "app",
     "sourceDir": "src",
     "styleExt": "scss",
     "prefixInterfaces": false,

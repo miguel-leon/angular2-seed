@@ -4,9 +4,8 @@ const argv = require('yargs').argv;
 const notify = require('gulp-notify');
 
 
-// TODO chequear aporte de superstatic
-// const superstatic = require('superstatic');
-
+// TODO has to be used?
+const superstatic = require('superstatic');
 
 
 module.exports.manualRegister = function (gulp, config) {
@@ -17,7 +16,7 @@ module.exports.manualRegister = function (gulp, config) {
 			            server: {
 				            baseDir: config.paths.build,
 			            },
-			            // middleware: superstatic(),
+			            middleware: superstatic(),
 			            open: !!(argv.open === undefined || argv.open),
 			            port: (argv.port) ? argv.port : 3000
 		            });

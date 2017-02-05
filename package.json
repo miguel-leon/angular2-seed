@@ -1,13 +1,14 @@
 {
-  "name": "olimpo-web",
+  "name": "angular2-seed",
   "version": "1.0.0",
   "private": true,
-  "license": "UNLICENSED",
+  "license": "ISC",
   "scripts": {
     "postinstall": "typings install",
+    "clean": "gulp clean",
     "build": "gulp",
-    "start": "",
-    "test": ""
+    "start": "gulp start",
+    "test": "gulp test"
   },
   "dependencies": {
     "@angular/common": "2.0.0-rc.6",
@@ -30,7 +31,9 @@
   },
   "devDependencies": {
     "angular-cli": "1.0.0-beta.10",
-
+    "browser-sync": "^2.14.0",
+    "codelyzer": "0.0.28",
+    "del": "^2.2.1",
     "gulp": "gulpjs/gulp#4.0",
     "gulp-changed": "^1.3.1",
     "gulp-notify": "^2.2.0",
@@ -38,18 +41,13 @@
     "gulp-sourcemaps": "^1.6.0",
     "gulp-tslint": "^6.0.2",
     "gulp-typescript": "^2.13.6",
-    "del": "^2.2.1",
+    "gulp4-tasks-loader": "git+https://github.com/miguel-leon/gulp4-tasks-loader.git",
+    "karma": "^1.2.0",
     "merge-stream": "^1.0.0",
-    "require-directory": "^2.1.1",
-    "yargs": "^4.8.1",
-
+    "superstatic": "^4.0.3",
+    "tslint": "^3.14.0",
     "typescript": "^1.8.10",
     "typings": "^1.3.2",
-    "tslint": "^3.14.0",
-    "codelyzer": "0.0.28",
-
-    "browser-sync": "^2.14.0",
-
-    "karma": "^1.2.0"
+    "yargs": "^4.8.1"
   }
 }
